@@ -1,0 +1,85 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>
+Java 1.1 3D renderer
+</title>
+</head>
+<body>
+<center>
+<h2>
+Java 1.1 3D renderer
+</h2>
+</center>
+<p align="justify">
+This directory contains all of the support
+code that implements a 3D renderer.
+Feel free to use it for academic purposes
+(you just need to give proper attribution).
+If you want to use it commercially,
+you'll need to contact us.
+
+</p><p align="justify">
+
+<i>Programmers:</i>
+To use this package,
+<i>(i)</i>
+grab the source files below into a folder named 'render',
+<i>(iii)</i>
+cd to the parent folder, and
+<i>(iv)</i>
+type 'javac render/*.java'.
+Then you can write applets in the parent folder that extend RenderApplet.
+Make sure to declare "import render.*;" at
+the top of your applet.
+For examples of usage, look at the
+<a href="http://mrl.nyu.edu/perlin/fiend">gesturing fiend</a>,
+<a href="http://mrl.nyu.edu/perlin/ice">ice cube</a>,
+<a href="http://mrl.nyu.edu/perlin/head">animated head</a>
+and
+<a href="http://mrl.nyu.edu/perlin/simple/bouncingthingie.html">bouncing gold thingie</a>.
+</p><p align="justify">
+The Application Programmers Interface is <a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/doc/index.html">here</a>.
+<table>
+
+<tbody><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/Geometry.java">Geometry.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/ImageBuffer.java">ImageBuffer.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/ImagePyramid.java">ImagePyramid.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/ImprovedNoise.java">ImprovedNoise.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/InteractiveBuffer.java">InteractiveBuffer.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/InteractiveMesh.java">InteractiveMesh.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/InteractiveRenderer.java">InteractiveRenderer.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/Material.java">Material.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/Matrix.java">Matrix.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/Noise.java">Noise.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/Renderable.java">Renderable.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/Renderer.java">Renderer.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/RenderApplet.java">RenderApplet.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/RenderJPanel.java">RenderJPanel.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/RenderPanel.java">RenderPanel.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/Texture.java">Texture.java</a>
+</td></tr><tr><td><a href="https://mrl.nyu.edu/~perlin/experiments/packing/render/Vec.java">Vec.java</a>
+</td></tr></tbody></table>
+</p><p><br></p><hr>
+<pre><font size="1" face="arial">
+<i>Last updated 02/10/2004</i>
+  Added InteractiveRenderer and Interactive Buffer 
+
+<i>Last updated 11/15/2003</i>
+  Improved Material threading
+  Color naming standardized
+
+<i>Last updated 10/17/2003</i>
+  Standardized keyboard and mouse controls for RenderPanel and JPanel
+
+<i>Last updated 10/15/2003</i>
+  Added processCommand function to handle external inputs
+  Added getPoint function to locate points in world space
+
+<i>Last updated 9/18/2003</i>
+  Added complete camera controls
+
+<i>Last updated 8/12/2003</i>
+  Added texture mapping
+
+
+</font></pre></body></html>

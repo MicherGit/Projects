@@ -1,7 +1,7 @@
-import renderer.Noise
+import render.*;
 
 public class NoiseRender {
 	public static void main(String [] args) {
-		noise World = new noise(World);
+		System.out.println(Noise.noise(2,2,2));
 	}
 }
