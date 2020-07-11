@@ -12,3 +12,4 @@ Java/render/Matrix.class
 Java/render/Renderable.class
 Java/render/RenderApplet.class
 *.class
+*.jar
